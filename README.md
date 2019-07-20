@@ -1,4 +1,4 @@
-# [![Image](https://avatars2.githubusercontent.com/u/32138575?s=220&v=4)](https://TheRealJonas.github.io) Welcome to my Github Page!
+# [![Image](https://avatars2.githubusercontent.com/u/32138575?s=80&v=4)](https://TheRealJonas.github.io) Welcome to my Github Page!
 
 ### Markdown
 
