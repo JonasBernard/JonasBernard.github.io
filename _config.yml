@@ -25,12 +25,21 @@ timezone: Europe/Berlin
 
 theme: jekyll-theme-cayman
 theme: minima
-theme: bulma-clean-theme
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-avatar
   - jekyll-include-cache
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"
+      title: "[Post ohne Titel]"
+      description: "Dieser Post hat keine Beschreibung."
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
