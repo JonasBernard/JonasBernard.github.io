@@ -25,6 +25,7 @@ timezone: Europe/Berlin
 
 theme: jekyll-theme-cayman
 theme: minima
+theme: bulma-clean-theme
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
