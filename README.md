@@ -1,4 +1,3 @@
-# [{avatar TheRealJonas}](https://TheRealJonas.github.io) Welcome to my Github Page!
 
 ### Markdown
 
