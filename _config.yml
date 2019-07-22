@@ -22,7 +22,10 @@ description: >-
 url: "therealjonas.github.io"
 twitter_username: TheRealJonas256
 github_username: TheRealJonas
+instagram_username: jonas.bern
+pinterest_username: TheRealJonas
 timezone: Europe/Berlin
+lang: de
 
 theme: jekyll-theme-cayman
 theme: minima
@@ -32,14 +35,17 @@ plugins:
   - jekyll-avatar
   - jekyll-include-cache
 
+
+show-excerpts: "true"
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
-      type: "post"
+      type: "posts"
     values:
       layout: "post"
-      title: "[Post ohne Titel]"
+      comment: true
+      comments: true
+      title: "[Blogeintrag ohne Titel]"
       description: "Dieser Post hat keine Beschreibung."
 
 # Exclude from processing.

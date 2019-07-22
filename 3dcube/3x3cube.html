@@ -1,0 +1,21 @@
+---
+layout: page
+title: "3D-Zauberwürfel"
+description: "Ein 3D-Zauberwürfel"
+date: 2019-07-22 15:31:09
+---
+
+<link rel="stylesheet" href="cube.css">
+<script src="three.js" charset="utf-8"></script>
+<script src="TweenMax.min.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+  var scene = new THREE.Scene();
+  var camera = new THREE.rspectiveCamera(75, 1, 0.1, 10);
+  var renderer = new THREE.WebGLRenderer({antialias: true});
+
+  renderer.setClearColor("#aff");
+  renderer.setSize(100, 100);
+
+  document.getElementsByClassName('page-content')[0].appendChild(renderer.domElement);
+</script>
