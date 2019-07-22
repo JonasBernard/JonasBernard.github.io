@@ -1,8 +1,5 @@
 ---
-layout: page
-title: About
+layout: about
+title: Kontakt
 permalink: /about/
 ---
-
-Jonas Bernard
-[{% avatar TheRealJonas %} GitHub](https://TheRealJonas.github.io)
