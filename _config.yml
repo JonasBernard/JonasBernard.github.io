@@ -27,7 +27,6 @@ pinterest_username: therealjonas256
 timezone: Europe/Berlin
 lang: de
 
-theme: jekyll-theme-cayman
 theme: minima
 plugins:
   - jekyll-seo-tag
