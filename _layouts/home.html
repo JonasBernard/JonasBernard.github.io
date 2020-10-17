@@ -9,25 +9,35 @@ layout: default
 
   {{ content }}
 
-  {% if site.posts.size > 0 %}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
+  <div class="card-list">
+    <div class="card card-light">
+      <div class="card-border">
+        <h2 class="card-title">
+          FakeStandby
+        </h2>
+        <p class="card-text">
+          FakeStandby is an Android app to turn off your screen while keeping apps running.
+        </p>
+        <hr>
+        <a class="card-link" href="https://fakestandby.jonasbernard.de">Visit Website</a>
+      </div>
+    </div>
+  </div>
+
+  <ul class="post-list">
+    {% if site.posts.size > 0 %}
       {% for post in site.posts %}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
+        <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h3>
+        </h2>
         {% if site.show_excerpts %}
           {{ post.excerpt }}
         {% endif %}
-      </li>
       {% endfor %}
-    </ul>
+    {% endif %}
+  </ul>
 
-  {% endif %}
 
 </div>

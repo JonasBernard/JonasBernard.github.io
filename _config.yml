@@ -13,21 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Willkommen bei TheRealJonas!
+title: Jonas Bernard
 email: public.jbernard@web.de
 description: >-
-  Ich bin zwar eigentlich klein und unwichtig, befasse mich aber mit umso
-  wichtigeren Themen. Aus meiner Sicht wichtig. Egal, ob es viele lesen,
-  oder wenige.
-url: "therealjonas.github.io"
-twitter_username: TheRealJonas256
+  Documentaion is to a project what color is to an image.
+url: https://jonasbernard.de
 github_username: TheRealJonas
-instagram_username: jonas.bern
-pinterest_username: therealjonas256
 timezone: Europe/Berlin
 lang: de
 
-theme: minima
+theme: jekyll-theme-architect
+show_downloads: false
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
