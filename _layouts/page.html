@@ -7,21 +7,8 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
-
-  <div class="card-list">
-    <div class="card card-light">
-      <div class="card-border">
-        <h2 class="card-title">
-          FakeStandby
-        </h2>
-        <p class="card-text">
-          FakeStandby is an Android app to turn off your screen while keeping apps running.
-        </p>
-        <hr>
-        <a class="card-link" href="https://fakestandby.jonasbernard.de">Visit Website</a>
-      </div>
-    </div>
+  <div class="card-list card-list-columns-{{ page.columns | default: 2 }}">
+    {{ content }}
   </div>
 
   <ul class="post-list">

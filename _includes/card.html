@@ -1,0 +1,15 @@
+<div class="card card-{{ include.theme | default: "light" }}">
+  <div class="card-border">
+    <div class="card-body">
+      <h2 class="card-title">
+        {{ include.title }}
+      </h2>
+      <p class="card-text">
+        {{ include.text }}
+      </p>
+    </div>
+    <div class="card-footer">
+      <a class="card-link" href="{{ include.link }}">{{ include.link-text }}</a>
+    </div>
+  </div>
+</div>
