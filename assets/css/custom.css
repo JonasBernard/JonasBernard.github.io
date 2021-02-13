@@ -1,0 +1,29 @@
+.card {
+  max-width: none;
+}
+
+.card .card__content {
+  padding: 1rem;
+}
+
+.card .card__content h1,
+.card .card__content h2,
+.card .card__content h3,
+.card .card__content h4,
+.card .card__content h4,
+.card .card__content h5,
+.card .card__content h6 {
+  margin-top: 0;
+}
+
+.card .card__link {
+  height: 4ex;
+}
+
+.card .card__link a {
+  float: right;
+}
+
+.article__header--overlay .overlay {
+  min-height: 50rem;
+}

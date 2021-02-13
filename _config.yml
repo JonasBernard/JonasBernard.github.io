@@ -1,46 +1,78 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Technichal stuff
+url: https://jonasbernard.de
+timezone: Europe/Berlin
+lang: de
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Website title and other metadata
 title: Jonas Bernard
 email: public.jbernard@web.de
 description: >-
   Eine Webseite, um meine Projekte zu präsentieren.
-url: https://jonasbernard.de
-github_username: TheRealJonas
-timezone: Europe/Berlin
-lang: de
 
-theme: jekyll-theme-architect
+# Social information
+github_username: JonasBernard
+
+# Themeing
+# theme: jekyll-theme-chirpy
+# theme: jekyll-text-theme
+remote_theme: kitian616/jekyll-TeXt-theme
+paginate: 6
+
+# Settigns specifically for TeXt Theme
+toc:
+  selectors: "h1,h2,h3"
+text_skin: "dark"
+highlight_theme: "tomorrow-night"
+author:
+  email: public.jbernard@web.de
+  github: JonasBernard
+  telegram: JonasBernard
+
+excerpt_separator: <!--more-->
+
+mathjax: true
+mathjax_autoNumber:  true
+
+highlighter : rouge
+markdown: kramdown
+
+comments:
+  provider: "custom"
+
+collections:
+  apps:
+    output: true
+
 show_downloads: false
+
+# Additional Content
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-avatar
   - jekyll-include-cache
-
+  - jemoji
+  - jekyll-remote-theme
 
 show-excerpts: "true"
+
 defaults:
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: "post"
-      comment: true
-      comments: true
-      title: "[Eintrag ohne Titel]"
+      layout: "page"
+      author: Jonas Bernard
+      comment: false
+      license: false
+      show_edit_on_github: false
+      show_subscribe: true
+      pageview: false
+      aside:
+        toc: false
+      title: "[Artikel ohne Titel]"
       description: "Dieser Post hat keine Beschreibung."
 
 # Exclude from processing.
@@ -54,3 +86,16 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - package-lock.json
+  - package.json
+  - /docs
+  - /node_modules
+  - /screenshots
+  - /test
+  - /vendor

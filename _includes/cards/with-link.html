@@ -1,0 +1,18 @@
+<div class="card">
+  <div class="card__content">
+    <div class="card__header">
+      <h4>
+        {{ include.title }}
+      <h4>
+    </div>
+    <p>
+      {{ include.text }}
+    </p>
+    <div class="card__link">
+      <a class="button button--primary button--rounded" href="{{ include.link }}">
+        <i class="fas fa-{{ include.icon | default: "code-branch"}}"></i>
+        {{ include.link-text }}
+      </a>
+    </div>
+  </div>
+</div>

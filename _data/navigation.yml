@@ -1,0 +1,24 @@
+header:
+  - titles:
+      de: Posts
+    url: /
+  - titles:
+      de: Apps
+    url: /apps
+  - titles:
+      en: &EN Archive
+      de: &DE Archiv
+    url: /archiv
+
+  - titles:
+      en: &EN About
+      de: &DE Über mich
+    url: /über
+
+apps:
+  - title: Meine Apps
+    children:
+      - title: FakeStandby
+        url: /fakestandby
+      - title: Moodle Wrapper
+        url: /tu-darmstadt-moodle-wrapper

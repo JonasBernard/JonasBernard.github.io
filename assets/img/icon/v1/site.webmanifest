@@ -1,0 +1,20 @@
+{
+    "name": "Jonas Bernard",
+    "short_name": "Jonas Bernard",
+    "icons": [
+        {
+            "src": "/assets/img/icon/v1/android-chrome-192x192.png?v=bOX2X0dyYA",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/img/icon/v1/android-chrome-512x512.png?v=bOX2X0dyYA",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#212121",
+    "background_color": "#212121",
+    "start_url": "https://jonasbernard.de",
+    "display": "standalone"
+}
