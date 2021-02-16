@@ -27,3 +27,7 @@
 .article__header--overlay .overlay {
   min-height: 50rem;
 }
+
+article p img {
+  width: 100%;
+}
