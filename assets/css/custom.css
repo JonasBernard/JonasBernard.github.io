@@ -36,9 +36,22 @@ article p img {
   padding-top: 3em;
 }
 
+.stats-img {
+  max-width: 100%;
+}
+
 .skill-list {
   list-style-type: none;
-  display: flow-root;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 886) {
+  .skill-list {
+    justify-content: flex-start;
+  }
 }
 
 .skill-card {
