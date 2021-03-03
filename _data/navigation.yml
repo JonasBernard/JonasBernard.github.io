@@ -1,7 +1,7 @@
 header:
   - titles:
       de: Posts
-    url: /
+    url: /posts
   - titles:
       de: Apps
     url: /apps

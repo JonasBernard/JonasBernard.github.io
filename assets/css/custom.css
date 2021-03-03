@@ -31,3 +31,27 @@
 article p img {
   width: 100%;
 }
+
+.padding-top {
+  padding-top: 3em;
+}
+
+.skill-list {
+  list-style-type: none;
+  display: flow-root;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  text-align: center;
+  margin: 1em;
+  padding: 0.5em;
+  width: 8.5em;
+  height: 8.5em;
+  background-color: #202020;
+  border-radius: 4px;
+}
