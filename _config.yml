@@ -36,6 +36,8 @@ mathjax_autoNumber:  true
 highlighter : rouge
 markdown: kramdown
 
+sources: unpkg
+
 comments:
   provider: "custom"
 
