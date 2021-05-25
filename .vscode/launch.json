@@ -1,0 +1,11 @@
+{
+    "version": "0.0.1",
+    "configurations": [
+    {
+        "command": "bundle exec jekyll serve",
+        "name": "Run Jekyll",
+        "request": "launch",
+        "type": "node-terminal"
+    }
+    ]
+}
